@@ -1,0 +1,32 @@
+{
+  "name": "my_precious_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-Lozada/My_Precious_App.git"
+  },
+  "keywords": [],
+  "author": "Juan Lozada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juan-Lozada/My_Precious_App/issues"
+  },
+  "homepage": "https://github.com/Juan-Lozada/My_Precious_App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node": "^19.4.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-format": "^1.0.4"
+  }
+}
