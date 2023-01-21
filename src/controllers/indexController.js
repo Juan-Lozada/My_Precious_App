@@ -10,7 +10,7 @@ const controller = {
         }
         catch (e) {
             console.error(e);
-            res.status(500).json({ message: `server internal error, soy gay` })
+            res.status(500).json({ message: `server internal error` })
         }
     },
 
