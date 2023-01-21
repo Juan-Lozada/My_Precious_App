@@ -34,7 +34,8 @@ const controller = {
         try {
             const queryString = req.query
             const filter = await filterJoyas(queryString)
-            filter.length === 0 ? res.status(200).json('No hay coincidencias en tu busqueda.') : res.status(200).json(filtrado)
+            filter.length === 0 ? res.status(200).send('No hay coincidencias en tu busqueda.') 
+            : res.status(200).send(filter)
         }
         catch (e) {
             console.error(e);

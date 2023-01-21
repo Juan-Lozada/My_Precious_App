@@ -17,7 +17,7 @@ const obtenerJoyas = async ({ limits = 2, page = 1, order_by = "id_ASC" }) => {
 const Hateos = parameter => {
     const results = parameter.map(params => (
         {
-            href: `http://localhost:3000/joyas/${params.id}`,
+            href: `http://localhost:3000/joya/${params.id}`,
             name: params.nombre,
             category: params.categoria,
             metal: params.metal,
